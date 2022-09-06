@@ -1,34 +1,59 @@
-# Rubric
+# **HTML & CSS - Final Project**
 
-## Minimum Requirements (70 poin)
+## Objectives
+* Membuat portofolio dalam bentuk HTML dan CSS
+* Mampu membuat _website_ statis dengan HTML dan CSS
+* Mampu menggunakan Tailwind CSS sebagai alat bantu desain
+* Mampu melakukan _deployment_ ke PaaS seperti Netlify
 
-- (30 poin) Peserta menaruh seluruh konten yang dibutuhkan untuk CV, konten yang dibutuhkan berupa 3 bagian website:
-  - Nama peserta, dan deskripsi singkat mengenai peserta. Jadikan nama peserta sebagai h1 dan deskripsi sebagai p
-  - Latar belakang pendidikan (minimal 2 latar belakang pendidikan, maksimal 4 latar belakang pendidikan), disertai dengan tahun mulai dan tahun selesai (atau tulis "Sekarang" jika pendidikannya masih berjalan). Tambahkan teksLatar Belakang Pendidikan sebagai h1 , dan jadikan masing-masing latar belakang pendidikan sebagai h2 , dengan tahun dari masing-masing latar belakang pendidikan sebagai p .
-  - 12 portofolio dummy, beserta gambar dummy untuk masing-masing portofolio. Tambahkan teks Portofolio sebagai h1 , judul dari masing-masing judul portofolio sebagai h2 , dan deskripsi dari portofolionya sebagai p .
-- (25 poin) Peserta menggunakan Tailwind CSS untuk mengerjakan tugas. Requirementnya berupa:
-  - Peserta mengubah font untuk heading ke font yang lebih besar dari font teks normal, dan besarnya disesuaikan dengan level dari headingnya (h2 lebih kecil dari h1, tapi lebih besar dari normal teks)
-  - Seluruh heading wajib memiliki ketebalan minimal bold
-- (15 poin) Peserta mendeploy tugas ke Netlify
-  - Peserta wajib menggunakan Git untuk deployment dan wajib memberikan repository private yang telah dibuat ke mentor
-  - Peserta dapat memberikan URL dari Netlify ke mentor
+## Restrictions
+* Tidak boleh mengerjakan pada repositori ini.
 
-## Additional Points - (30 poin)
+## Acceptance criteria
+* Wajib menggunakan Git sebagai repositori kerja
+* Wajib menggunakan Tailwind CSS
+* Wajib melakukan _deployment_ ke Netlify
 
-- Peserta telah menyelesaikan seluruh minimum requirement
-- (15 poin) Peserta bisa menggunakan flex secara baik
-  - Masing-masing latar belakang edukasi dibagi ke beberapa kolom, dan tiap kolomnya harus memiliki lebar yang sama dan berada di satu baris yang sama
-  - Seluruh portofolio dibagi ke 3 buah kolom per barisnya
-- (10 poin) Peserta memahami konsep responsive secara baik
-  - Pada viewport dibawah lg , seluruh "latar belakang edukasi" harus berada di satu kolom saja
-  - Pada viewport dibawah lg , seluruh portoflio harus berada di satu kolom saja
-- (5 poin) Peserta menerapkan beberapa konsep design website untuk membuat halamannya lebih menarik:
-  - Peserta mengaplikasikan shadow, background color, dan memberikan background-color ber-gradient (bisa dicari gradient yang menarik di: https://uigradients.com/#SublimeLight)
+## Prerequisite
+Buatlah sebuah *private repository* baru untuk menyimpan _file_ pengerjaannya dengan format penamaan **student_name-final_project** (contoh: dito_bagus-final_project).
 
-# Contoh Tugas Dengan Perfect Score
+## Directions:
+Buatlah sebuah _private repository_ di Github dan gunakan sebagai repositori kerja. Bagilah proyek menjadi beberapa _task_ dan _commit_ secara berkala sesuai dengan _task_-nya dan berikan _commit message_ yang sesuai.
+
+Buatlah sebuah _website_ yang memiliki konten mirip dengan CV yang terdiri dari 3 bagian:
+  - Nama, dan deskripsi singkat. Jadikan nama sebagai **h1** dan deskripsi sebagai **p**
+  - Latar belakang pendidikan (minimal 2 latar belakang pendidikan, maksimal 4 latar belakang pendidikan), disertai dengan tahun mulai dan tahun selesai (atau tulis "Sekarang" jika pendidikannya masih berjalan). Tambahkan teks Latar Belakang Pendidikan sebagai **h1** , dan jadikan masing-masing latar belakang pendidikan sebagai **h2** , dengan tahun dari masing-masing latar belakang pendidikan sebagai **p** .
+  - 12 portofolio _dummy_, beserta gambar _dummy_ untuk masing-masing portofolio. Tambahkan teks Portofolio sebagai **h1** , judul dari masing-masing judul portofolio sebagai **h2** , dan deskripsi dari portofolionya sebagai **p** .
+
+Tambahkan _styling_ agar _website_ lebih menarik dengan menggunakan CSS:
+  - Flex bisa digunakan untuk 
+    - Membagi latar belakang edukasi ke beberapa kolom, mirip dengan yang umum kita jumpai di surat kabar.
+    - Membagi portofolio menjadi beberapa kolom agar terlihat rapih.
+  Terapkan konsep responsive
+    - Untuk layar kecil (small dan medium), sebaiknya "latar belakang edukasi" berada di satu kolom saja
+    - Demikian juga seluruh portofolio sebaiknya menggunakan satu kolom saja, khusus layar kecil
+  - Tambahkan konsep _design website_ untuk membuat halamannya lebih menarik:
+    - Contoh bisa menggunakan _shadow_, _background color_, bahkan _background-color_ ber-_gradient_ ( contoh: https://uigradients.com/#SublimeLight)
+
+Gunakan Tailwind CSS untuk mempercantik website:
+  - Ubahlah _font_ dari _heading_ agar lebih cantik. Gunakan _font_ untuk _heading_ lebih besar dari _font_ teks normal, dan besarnya disesuaikan dengan _level_ dari _heading_-nya (h2 lebih kecil dari h1, tapi lebih besar dari normal teks)
+  - Seluruh _heading_ wajib memiliki ketebalan minimal _bold_
+
+_Deploy/hosting_ _website_ ke Netlify:
+  - Peserta wajib menggunakan Git untuk _deployment_ ke Netlify
+
+## Referensi website:
 
 ![](assets/demo.gif)
 
-# Tips
+## Tips
 
-- Gunakan background-image untuk membuat gambar dengan bentuk yang lebih fleksibel: Buat containernya terlebih dahulu sesuai dengan keperluan (berikan rounded, shadow, dan lain sebagainya), baru berikan `background-image`
+- Gunakan background-image untuk membuat gambar dengan bentuk yang lebih fleksibel: Buat _container_-nya terlebih dahulu sesuai dengan keperluan (berikan _rounded_, _shadow_, dan lain sebagainya), baru berikan `background-image`
+
+## Output:
+* Sebuah _website_ statis dalam bentuk HTML dan CSS
+* _Website_ statis yang dibuat bisa dilihat dengan menggunakan _hosting/deployment_ di Netlify
+
+## Output yang harus disubmit ke LMS:
+* *Link* URL _deployment_ Netlify
+* *Link* Repository private
