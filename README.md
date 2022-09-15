@@ -13,6 +13,11 @@
 * Wajib menggunakan Git sebagai repositori kerja
 * Wajib menggunakan Tailwind CSS
 * Wajib melakukan _deployment_ ke Netlify
+* Wajib memiliki 3 section
+  * Section personal info, berisi nama dan deskripsi singkat.
+  * Section pendidikan, berisi latar belakang pendidikan, minimal 2 latar pendidikan.
+  * Section portofolio, berisi gambar, judul dan deskripsi portofolio.
+* Responsive, ketika layar dikecilkan atau dibesarkan, layout akan mengikuti dan tidak berantakan, seperti contoh gambar di akhir README, ketika layar dikecilkan dari 3 kolom berubah menjadi 1 kolom.
 
 ## Prerequisite
 Buatlah sebuah *private repository* baru untuk menyimpan _file_ pengerjaannya dengan format penamaan **student_name-final_project** (contoh: dito_bagus-final_project).
