@@ -45,7 +45,7 @@ Gunakan Tailwind CSS untuk mempercantik website:
   - Seluruh _heading_ wajib memiliki ketebalan minimal _bold_
 
 _Deploy/hosting_ _website_ ke Netlify:
-  - Peserta wajib menggunakan Git untuk _deployment_ ke Netlify
+  - Peserta **wajib menggunakan Git** untuk _deployment_ ke Netlify
 
 ## Referensi website:
 
@@ -62,3 +62,5 @@ _Deploy/hosting_ _website_ ke Netlify:
 ## Output yang harus disubmit ke LMS:
 * *Link* URL _deployment_ Netlify
 * *Link* Repository private
+* Hasil *screenshoot* **Deploy log**
+  ![deploy-log](./assets/deploy-log.png)
